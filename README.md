@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=200&section=header&text=Rajendra%20Prasad%20Jat&fontSize=46&fontColor=cdd6f4&fontAlignY=38&desc=ReactJS%20%26%20React%20Native%20Developer&descAlignY=58&descColor=a6e3a1&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=200&section=header&text=Rajendra%20Prasad%20Jat&fontSize=46&fontColor=cdd6f4&fontAlignY=38&desc=ReactJS%20%7C%20React%20Native%20Developer&descAlignY=58&descColor=a6e3a1&animation=fadeIn" />
 </p>
 
 <p align="center">
@@ -9,13 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rajbchoudhary79">
-    <img src="https://komarev.com/ghpvc/?username=rajbchoudhary79&label=Profile+Views&color=70a5fd&style=flat-square" alt="Profile Views" />
-  </a>
   <a href="https://github.com/rajbchoudhary79?tab=followers">
     <img src="https://img.shields.io/github/followers/rajbchoudhary79?label=Followers&style=flat-square&color=70a5fd" alt="Followers" />
   </a>
-  <img src="https://img.shields.io/badge/Open%20to%20Work-✅-a6e3a1?style=flat-square" alt="Open to Work" />
+  <img src="https://img.shields.io/badge/Open_to_Work-Available-a6e3a1?style=flat-square" alt="Open to Work" />
 </p>
 
 ---
