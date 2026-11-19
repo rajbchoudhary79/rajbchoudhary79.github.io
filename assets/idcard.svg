@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="436" viewBox="0 0 900 436">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0d14"/><stop offset="1" stop-color="#161a2b"/></linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff3b3b"/><stop offset="1" stop-color="#ff8a3d"/></linearGradient>
+<style>.t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}.m{font-family:Consolas,Menlo,'DejaVu Sans Mono',monospace}
+.pop{animation:pop .6s ease-out both}@keyframes pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.fill{transform-box:fill-box;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.sway{transform-origin:184px 128px;animation:sway 3.5s ease-in-out infinite alternate}@keyframes sway{from{transform:rotate(-1.2deg)}to{transform:rotate(1.2deg)}}
+.blink{animation:bl 1.6s infinite}@keyframes bl{50%{opacity:.25}}</style></defs>
+<rect x="1" y="1" width="898" height="434" rx="16" fill="url(#bg)" stroke="#ff4d2e" stroke-opacity=".35" stroke-width="2"/>
+<text x="32" y="40" class="m" font-size="12" letter-spacing="3" fill="#ff8a3d">// SHINOBI REGISTRATION</text>
+<text x="32" y="68" class="t" font-size="22" font-weight="700" fill="#f5f7ff">Stats from the field</text>
+<rect x="32" y="80" width="48" height="3" rx="1.5" fill="url(#red)"/>
+
+<!-- lanyard -->
+<rect x="176" y="92" width="16" height="34" fill="url(#red)"/><rect x="164" y="122" width="40" height="12" rx="3" fill="#aeb6c8"/>
+<g class="sway">
+<rect x="48" y="132" width="272" height="280" rx="14" fill="#11141f" stroke="#ff4d2e" stroke-opacity=".6" stroke-width="1.5"/>
+<rect x="48" y="132" width="272" height="34" rx="14" fill="url(#red)"/><rect x="48" y="152" width="272" height="14" fill="url(#red)"/>
+<text x="184" y="155" text-anchor="middle" class="m" font-size="12" letter-spacing="3" fill="#0b0d14" font-weight="700">SHINOBI DEV · ID</text>
+<!-- avatar -->
+<rect x="66" y="182" width="96" height="112" rx="10" fill="#1d2235" stroke="#323a5a"/>
+<path d="M82 294 C 84 262, 98 252, 114 251 C 130 252, 144 262, 146 294 Z" fill="#2a3150"/>
+<path d="M90 228 C 88 200, 102 192, 114 192 C 126 192, 140 200, 138 228 C 136 242, 126 248, 114 248 C 102 248, 92 242, 90 228 Z" fill="#232a40" stroke="#3a4366"/>
+<path d="M97 220 Q114 214 131 220 L130 230 Q114 226 98 230 Z" fill="#f2d3b8"/>
+<path d="M91 211 Q114 202 137 211 L136 217 Q114 209 92 217 Z" fill="#ff3b3b"/>
+<circle cx="107" cy="224" r="2" fill="#11131c"/><circle cx="121" cy="224" r="2" fill="#11131c"/>
+<path d="M92 238 Q114 252 136 238 L137 247 Q114 260 91 247 Z" fill="url(#red)"/>
+<text x="176" y="198" class="m" font-size="10" fill="#7c86a6">NAME</text>
+<text x="176" y="214" class="t" font-size="14" font-weight="700" fill="#f5f7ff">Rajendra P. Jat</text>
+<text x="176" y="236" class="m" font-size="10" fill="#7c86a6">CLASS</text>
+<text x="176" y="252" class="t" font-size="13" fill="#cdd6f4">Full-stack Dev</text>
+<text x="176" y="274" class="m" font-size="10" fill="#7c86a6">BASE</text>
+<text x="176" y="290" class="t" font-size="13" fill="#cdd6f4">India</text>
+<text x="66" y="320" class="m" font-size="10" fill="#7c86a6">SPECIALTY</text>
+<text x="66" y="337" class="t" font-size="13" fill="#cdd6f4">Web + mobile apps, end to end</text>
+<circle cx="72" cy="356" r="5" fill="#a6e3a1" class="blink"/>
+<text x="84" y="360" class="t" font-size="12" fill="#a6e3a1">Open to new missions</text>
+<rect x="64" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="69" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="74" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="79" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="84" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="89" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="94" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="99" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="104" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="109" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="114" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="119" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="124" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="129" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="134" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="139" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="144" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="149" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="154" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="159" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="164" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="169" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="174" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="179" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="184" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="189" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="194" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="199" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="204" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="209" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="214" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="219" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="224" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="229" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="234" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="239" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="244" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="249" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="254" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="259" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="264" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="269" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="274" y="372" width="3" height="26" fill="#cdd6f4" fill-opacity=".7"/><rect x="279" y="372" width="2" height="26" fill="#cdd6f4" fill-opacity=".7"/>
+</g>
+<!-- right side -->
+<text x="400" y="118" class="m" font-size="11" letter-spacing="2" fill="#7c86a6">CHAKRA LEVELS · core skills</text>
+<text x="400" y="150" class="t" font-size="13" fill="#cdd6f4">React</text><rect x="400" y="158" width="440" height="10" rx="5" fill="#232a40"/><rect class="fill" style="animation-delay:0.00s" x="400" y="158" width="387" height="10" rx="5" fill="url(#red)"/><text x="400" y="190" class="t" font-size="13" fill="#cdd6f4">React Native</text><rect x="400" y="198" width="440" height="10" rx="5" fill="#232a40"/><rect class="fill" style="animation-delay:0.12s" x="400" y="198" width="374" height="10" rx="5" fill="url(#red)"/><text x="400" y="230" class="t" font-size="13" fill="#cdd6f4">JavaScript</text><rect x="400" y="238" width="440" height="10" rx="5" fill="#232a40"/><rect class="fill" style="animation-delay:0.24s" x="400" y="238" width="378" height="10" rx="5" fill="url(#red)"/><text x="400" y="270" class="t" font-size="13" fill="#cdd6f4">Laravel / PHP</text><rect x="400" y="278" width="440" height="10" rx="5" fill="#232a40"/><rect class="fill" style="animation-delay:0.36s" x="400" y="278" width="352" height="10" rx="5" fill="url(#red)"/><text x="400" y="310" class="t" font-size="13" fill="#cdd6f4">Node.js</text><rect x="400" y="318" width="440" height="10" rx="5" fill="#232a40"/><rect class="fill" style="animation-delay:0.48s" x="400" y="318" width="299" height="10" rx="5" fill="url(#red)"/><text x="400" y="350" class="t" font-size="13" fill="#cdd6f4">MySQL / MongoDB</text><rect x="400" y="358" width="440" height="10" rx="5" fill="#232a40"/><rect class="fill" style="animation-delay:0.60s" x="400" y="358" width="316" height="10" rx="5" fill="url(#red)"/>
+<text x="400" y="402" class="m" font-size="11" fill="#7c86a6">github.com/rajbchoudhary79</text>
+
+</svg>

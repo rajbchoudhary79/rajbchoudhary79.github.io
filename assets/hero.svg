@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d14"/><stop offset="1" stop-color="#161a2b"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff3b3b"/><stop offset="1" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff4d2e" stop-opacity="0.55"/><stop offset="1" stop-color="#ff4d2e" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="900" height="320" rx="18"/></clipPath>
+    <style>
+      .t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+      .m{font-family:Consolas,Menlo,'DejaVu Sans Mono',monospace}
+      .line{stroke:#ff4d2e;stroke-opacity:.22;stroke-width:2;animation:dash 2.4s linear infinite}
+      .l2{animation-delay:-.8s}.l3{animation-delay:-1.6s}
+      @keyframes dash{from{transform:translateX(300px)}to{transform:translateX(-500px)}}
+      .spin{transform-origin:792px 70px;animation:spin 3s linear infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .scarf{transform-origin:640px 170px;animation:wave 1.6s ease-in-out infinite alternate}
+      @keyframes wave{from{transform:skewY(-4deg)}to{transform:skewY(5deg)}}
+      .eye{animation:blink 4s infinite}
+      @keyframes blink{0%,92%,100%{opacity:1}95%{opacity:.1}}
+      .fade{animation:fi 1.2s ease-out both}
+      @keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="320" fill="url(#bg)"/>
+    <!-- speed lines -->
+    <g>
+      <line class="line" x1="380" y1="40" x2="900" y2="40"/>
+      <line class="line l2" x1="420" y1="95" x2="900" y2="95"/>
+      <line class="line l3" x1="360" y1="250" x2="900" y2="250"/>
+      <line class="line l2" x1="440" y1="290" x2="900" y2="290"/>
+    </g>
+    <!-- sun / chakra glow -->
+    <circle cx="690" cy="170" r="170" fill="url(#glow)"/>
+    <circle cx="690" cy="170" r="118" fill="none" stroke="#ff4d2e" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 10"/>
+
+    <!-- original hooded ninja -->
+    <g>
+      <!-- scarf tail -->
+      <path class="scarf" d="M640 175 C 590 185, 560 160, 515 190 C 555 185, 575 205, 615 200 C 580 215, 560 240, 525 245 C 580 250, 620 225, 650 200 Z" fill="url(#red)"/>
+      <!-- body -->
+      <path d="M600 320 C 605 245, 640 215, 690 210 C 740 215, 775 245, 780 320 Z" fill="#1d2235" stroke="#2c3350" stroke-width="2"/>
+      <path d="M690 212 L 690 320" stroke="#2c3350" stroke-width="2"/>
+      <!-- scarf wrap -->
+      <path d="M635 180 Q 690 215 745 180 L 750 205 Q 690 240 630 205 Z" fill="url(#red)"/>
+      <!-- head / hood -->
+      <path d="M625 150 C 620 85, 660 60, 690 60 C 720 60, 760 85, 755 150 C 750 180, 725 195, 690 195 C 655 195, 630 180, 625 150 Z" fill="#232a40" stroke="#323a5a" stroke-width="2"/>
+      <!-- face mask opening -->
+      <path d="M645 128 Q 690 112 735 128 L 732 150 Q 690 140 648 150 Z" fill="#f2d3b8"/>
+      <!-- headband (plain plate) -->
+      <path d="M630 112 Q 690 92 750 112 L 748 126 Q 690 108 632 126 Z" fill="#ff3b3b"/>
+      <rect x="668" y="99" width="44" height="18" rx="3" fill="#aeb6c8" stroke="#ffffff" stroke-opacity=".5"/>
+      <path d="M676 108 h28" stroke="#6b7389" stroke-width="2"/>
+      <!-- band tails -->
+      <path class="scarf" d="M750 112 C 780 105, 800 120, 830 112 L 828 120 C 800 130, 780 118, 748 124 Z" fill="#ff3b3b"/>
+      <!-- eyes -->
+      <g class="eye">
+        <path d="M660 134 q 10 -7 20 0 q -10 6 -20 0" fill="#11131c"/>
+        <path d="M700 134 q 10 -7 20 0 q -10 6 -20 0" fill="#11131c"/>
+        <circle cx="672" cy="133" r="2" fill="#ff8a3d"/><circle cx="712" cy="133" r="2" fill="#ff8a3d"/>
+      </g>
+      <!-- laptop glow -->
+      <rect x="640" y="268" width="100" height="52" rx="6" fill="#0f1220" stroke="#ff8a3d" stroke-opacity=".7"/>
+      <text x="690" y="300" text-anchor="middle" class="m" font-size="14" fill="#ff8a3d">&lt;/&gt;</text>
+    </g>
+
+    <!-- shuriken -->
+    <g class="spin">
+      <path d="M792 48 L798 64 L814 70 L798 76 L792 92 L786 76 L770 70 L786 64 Z" fill="#c7cede"/>
+      <circle cx="792" cy="70" r="4" fill="#0b0d14"/>
+    </g>
+
+    <!-- text -->
+    <g class="fade">
+      <text x="48" y="70" class="m" font-size="14" letter-spacing="3" fill="#ff8a3d">// SHINOBI OF CODE</text>
+      <text x="48" y="112" class="t" font-size="20" fill="#cdd6f4">Hi, I'm</text>
+      <text x="48" y="160" class="t" font-size="44" font-weight="800" fill="url(#red)">Rajendra</text>
+      <text x="48" y="204" class="t" font-size="44" font-weight="800" fill="#f5f7ff">Prasad Jat</text>
+      <text x="48" y="238" class="t" font-size="16" fill="#9aa4bf">Full-stack &amp; React Native Developer</text>
+      <g transform="translate(48,258)">
+        <rect width="118" height="30" rx="15" fill="#ff3b3b" fill-opacity=".14" stroke="#ff3b3b" stroke-opacity=".6"/>
+        <text x="59" y="20" text-anchor="middle" class="t" font-size="13" fill="#ff8a8a">React</text>
+        <rect x="128" width="142" height="30" rx="15" fill="#ff8a3d" fill-opacity=".14" stroke="#ff8a3d" stroke-opacity=".6"/>
+        <text x="199" y="20" text-anchor="middle" class="t" font-size="13" fill="#ffb07a">React Native</text>
+        <rect x="280" width="112" height="30" rx="15" fill="#70a5fd" fill-opacity=".14" stroke="#70a5fd" stroke-opacity=".6"/>
+        <text x="336" y="20" text-anchor="middle" class="t" font-size="13" fill="#9cc2ff">Laravel</text>
+      </g>
+    </g>
+    <rect x="1" y="1" width="898" height="318" rx="17" fill="none" stroke="#ff4d2e" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+</svg>
